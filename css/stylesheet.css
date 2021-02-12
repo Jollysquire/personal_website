@@ -3,9 +3,16 @@ body {
 }
 
 h1 {
+    font-family: 'Montserrat', sans-serif;
     color: #89023f;
 }
 
 nav{
     background-color: lightblue;
+    border: ridge black;
+    text-align: center;
+}
+
+ul{
+    display: inline-block; text-align: left;
 }
