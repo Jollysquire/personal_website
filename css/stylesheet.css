@@ -2,7 +2,7 @@ body {
     background-color: #EDDDD0;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 100px 100px;
+    grid-template-rows: 1fr 100px;
 }
 
 h1 {
@@ -43,15 +43,7 @@ ul{
     list-style: none;
 }
 
-li{
-    display: inline-block;
-}
-
-.script{
-    border-bottom: solid 2px black;
-}
-
-.web{
+.underline{
     border-bottom: solid 2px black;
 }
 
@@ -62,4 +54,9 @@ li{
         flex-direction: row;
         justify-content: space-between;
     }
+
+    li{
+        display: inline-block;
+    }
+    
 }
